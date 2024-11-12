@@ -1,0 +1,54 @@
+li {
+    display: list-item;
+    text-align: -webkit-match-parent;
+    unicode-bidi: isolate;
+}
+hoja de estilo del agente de usuario
+ul {
+    list-style-type: disc;
+}
+hoja de estilo del agente de usuario
+::marker {
+    unicode-bidi: isolate;
+    font-variant-numeric: tabular-nums;
+    text-transform: none;
+    text-indent: 0px !important;
+    text-align: start !important;
+    text-align-last: start !important;
+}
+
+form { border: 1px solid #ccc;
+    padding: 20px;
+    width: 500px;
+    margin: 40px auto;
+    box-sizing: border-box;
+}
+
+div { text-align: center;}
+h1{
+    color:red ;
+    font-family: cursive;
+    text-align: center;
+}
+.boton{background-color: green;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: block;
+    font-size: 16px;
+    margin: 0 auto;
+    cursor: pointer;
+
+    
+
+} 
+body {
+    background-color: yellow;
+}
+img{
+    display: block;
+    margin: 0 auto;
+    width: 500px;
+    height: 200px;
+}

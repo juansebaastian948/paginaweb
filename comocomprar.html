@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="comocomprar.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="sebas">
+    <div class="modal fade" id="modalCompra" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered" role="document">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h1 class="modal-title" id="exampleModalCenterTitle">Compra tu juego aqui!</h5>
+                <img src="assets/img/comprar2.jpg" alt="">
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+              </button>
+            </div>
+            <div class="modal-body">
+              <form>
+                <form>
+                  <head>
+                    <title>problema</title>
+                </head>
+                
+                <body>
+                    <h1>Datos requeridos para comprar los productos</h1>
+                    <form action="registro.php" method="post">
+                      Ingrese su nombre:
+                      <input type="text" name="nombre"><br>
+                      Ingrese sus apellidos:
+                      <input type="text" name="apellidos"><br>
+                      Ingrese su email:
+                      <input type="text" name="email"><br>
+                      Ingrese su telefono:
+                      <input type="text" name="telefono"><br>
+                      
+                      seleccione el juego a comprar:
+                      <select name="juego" id="">
+                      <option value="FIFA 24">FIFA 24</option>
+                      <option value="CALL OF DUTYY">CALL OF DUTY </option>
+                      <option value="HSLO">HALO</option>
+                      <option value="GTA 5">GTA 5</option>
+                      </select>
+                      <br>
+                      <input class="boton" type="submit" value="Comprar">
+                    </form>
+                </body>             
+              
+                               
+            </div>
+            <div class="modal-footer">
+              <a href="tallerfinal.html" class="boton">Cancelar</a>
+              <a href="tallerfinal.html" class="boton">inicio</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    
+      </div>
+</body>
+</html>
